@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:toonflix/pomodoro.dart';
 import 'package:toonflix/widgets/button.dart';
 import 'package:toonflix/widgets/currency_card.dart';
 
@@ -10,7 +11,9 @@ class Player {
 void main() {
   var ksm = Player(name: "ksm");
 
-  runApp(App());
+  // runApp(App());
+  // runApp(const AppState());
+  runApp(const PomodoroApp());
 }
 
 class App extends StatelessWidget {
