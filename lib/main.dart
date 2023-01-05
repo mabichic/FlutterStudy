@@ -1,9 +1,5 @@
 import 'package:flutter/material.dart';
-<<<<<<< HEAD
-import 'package:toonflix/app_state.dart';
 import 'package:toonflix/pomodoro.dart';
-=======
->>>>>>> parent of e033eb0 (Stateful Widget 만들기)
 import 'package:toonflix/widgets/button.dart';
 import 'package:toonflix/widgets/currency_card.dart';
 
@@ -15,13 +11,9 @@ class Player {
 void main() {
   var ksm = Player(name: "ksm");
 
-<<<<<<< HEAD
   // runApp(App());
   // runApp(const AppState());
   runApp(const PomodoroApp());
-=======
-  runApp(App());
->>>>>>> parent of e033eb0 (Stateful Widget 만들기)
 }
 
 class App extends StatelessWidget {
